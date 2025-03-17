@@ -28,7 +28,8 @@ import AdminWebSettings from './pages/adminPages/WebSettings'
 function App() {
   const {isAuthenticated} = useContext(PortfolioContext);
   const location = useLocation()
-  let checkLoc = location.pathname.includes('admin')
+  // let checkLoc = location.pathname.includes('admin')
+  let checkLoc = location.hash.includes('admin')
   return (
     <AnimatePresence mode="wait">
      <div className={!checkLoc?'p-4 sm:px-[5vw]':''}>{/*className='p-4 sm:px-[5vw]' */}
