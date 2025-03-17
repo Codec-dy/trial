@@ -1,6 +1,5 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { Link, useNavigate, useParams } from 'react-router-dom'
-import { projects } from '../assets/assets'
 import { PortfolioContext } from '../context/PortfolioContext'
 import ProPageTop from '../components/ProPageTop'
 import Button from '../components/Button'

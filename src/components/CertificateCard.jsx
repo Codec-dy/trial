@@ -1,8 +1,6 @@
 import React, { useContext, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { PortfolioContext } from "../context/PortfolioContext"
-import { assets } from '../assets/assets'
-
 
 
 const CertificateCard = ({id,title,institute,date,img,txt, link}) => {

@@ -10,9 +10,9 @@ import { Route, Routes, useLocation } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import ProjectPage from './pages/ProjectPage'
 import Certificates from './pages/Certificates'
-import Certificate from './pages/Certificate'
+// import Certificate from './pages/Certificate'
 import Footer from './components/Footer'
-import GraphicDesign from './pages/GraphicDesign'
+
 import { AnimatePresence,motion } from 'framer-motion'
 import Admin from './pages/adminPages/Admin'
 import Admindashboard from './pages/adminPages/Dashboard'
@@ -71,18 +71,6 @@ function App() {
               exit={{ opacity: 0 }}
               transition={{ duration: 0.5 }}
             ><Certificates /></motion.div>} />
-        <Route path="/certificate" element={<motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.5 }}
-            ><Certificate /></motion.div>} />
-        <Route path="/project/graphicdesign/:id" element={<motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              transition={{ duration: 0.5 }}
-            ><GraphicDesign/></motion.div>} />
       
         <Route path="/admin" element={<motion.div
               initial={{ opacity: 0 }}

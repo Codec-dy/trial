@@ -1,7 +1,5 @@
 import React, { useContext, useState } from 'react'
-import { assets,projects } from '../assets/assets'
 import { PortfolioContext } from '../context/PortfolioContext';
-import ProjectCard from './ProjectCard';
 
 
 const MiniProjections = ({project}) => {
