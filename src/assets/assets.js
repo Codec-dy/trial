@@ -30,9 +30,6 @@ import bgInfoPic from './bgInfoPic.jpg'
 import eduPic from './eduPic.webp'
 import skillsPic from './skillsPic.jpg'
 import hobPic from './hobPic.jpg'
-import mbalisPortfolio from '../projects/mbalisportfolio.png'
-import ecommerce from '../projects/ecommerce.png'
-
 
 export const graphicDesignImages = []
 
@@ -60,37 +57,37 @@ export const assets = {
     background1,
     completed,
 }
-export const projects = [
-    {
-        id: 1,
-        title: 'Ecommerce Project',
-        category: 'Web development',
-        description: 'This responsive e-commerce website provides a seamless and user-friendly shopping experience. It features a modern and intuitive design, showcasing a variety of products with detailed descriptions, prices, and high-quality images. It provides dynamic product listings with filtering options for easy navigation, Fully optimized for desktop and mobile devices, Smooth transitions and animations for an engaging interface.',
-        img: ecommerce,
-        vid: '',
-        projlink:'https://codec-dy.github.io/ecommerce',
-        images:[],
-        techUsed: 'Reactjs, tailwindcss, vite, VScode',
-    },
-    {
-        id: 2,
-        title: 'Portfolio Project',
-        category: 'Web Development',
-        description: 'This sleek and modern portfolio website showcases my skills, projects, and experiences in web development and programming. Designed with a clean and intuitive layout, it effectively highlights my clients professional journey and creative work.It is fully optimized for desktop and mobile devices, ensuring accessibility across all platforms',
-        img: mbalisPortfolio,
-        vid: '',
-        projlink:'https://codec-dy.github.io/mbalisportfolio/',
-        techUsed: 'Reactjs, tailwindcss, vite, VScode',
-    },
-    {
-        id: 3,
-        title: 'Graphic Design',
-        category: 'Designs',
-        description: 'This collection showcases my skills in graphic design, focusing on the art of poster creation. Each design blends creativity, typography, and visual storytelling to deliver compelling messages. From bold event promotions to thought-provoking concepts, my work reflects a keen eye for aesthetics and effective communication.',
-        img: background1,
-        vid: '',
-        techUsed: 'Adobe Illustrator, Adobe Photoshop, Figma, Canva',
-    },
+// export const projects = [
+//     {
+//         id: 1,
+//         title: 'Ecommerce Project',
+//         category: 'Web development',
+//         description: 'This responsive e-commerce website provides a seamless and user-friendly shopping experience. It features a modern and intuitive design, showcasing a variety of products with detailed descriptions, prices, and high-quality images. It provides dynamic product listings with filtering options for easy navigation, Fully optimized for desktop and mobile devices, Smooth transitions and animations for an engaging interface.',
+//         img: ecommerce,
+//         vid: '',
+//         projlink:'https://codec-dy.github.io/ecommerce',
+//         images:[],
+//         techUsed: 'Reactjs, tailwindcss, vite, VScode',
+//     },
+//     {
+//         id: 2,
+//         title: 'Portfolio Project',
+//         category: 'Web Development',
+//         description: 'This sleek and modern portfolio website showcases my skills, projects, and experiences in web development and programming. Designed with a clean and intuitive layout, it effectively highlights my clients professional journey and creative work.It is fully optimized for desktop and mobile devices, ensuring accessibility across all platforms',
+//         img: mbalisPortfolio,
+//         vid: '',
+//         projlink:'https://codec-dy.github.io/mbalisportfolio/',
+//         techUsed: 'Reactjs, tailwindcss, vite, VScode',
+//     },
+//     {
+//         id: 3,
+//         title: 'Graphic Design',
+//         category: 'Designs',
+//         description: 'This collection showcases my skills in graphic design, focusing on the art of poster creation. Each design blends creativity, typography, and visual storytelling to deliver compelling messages. From bold event promotions to thought-provoking concepts, my work reflects a keen eye for aesthetics and effective communication.',
+//         img: background1,
+//         vid: '',
+//         techUsed: 'Adobe Illustrator, Adobe Photoshop, Figma, Canva',
+//     },
     
     
     // {
@@ -115,26 +112,26 @@ export const projects = [
 
 ]
 
-export const certificates = [
-    {
-        id: 1,
-        title: 'Software Engineering Job Simulation',
-        institution: 'Goldman Sachs, Forage',
-        date: 'January 27th, 2025',
-        img:'',
-        link: GS_forageCert
-    },
-    {
-        id: 2,
-        title: 'Student Employment Information Security',
-        institution: 'Infosec IQ',
-        date: 'November 20th, 2024',
-        img:'',
-        link: infosec
-    },
+// export const certificates = [
+//     {
+//         id: 1,
+//         title: 'Software Engineering Job Simulation',
+//         institution: 'Goldman Sachs, Forage',
+//         date: 'January 27th, 2025',
+//         img:'',
+//         link: GS_forageCert
+//     },
+//     {
+//         id: 2,
+//         title: 'Student Employment Information Security',
+//         institution: 'Infosec IQ',
+//         date: 'November 20th, 2024',
+//         img:'',
+//         link: infosec
+//     },
 
 
-]
+// ]
 
 export const aboutme = {
     background: 'My name is Daniel Yormesor, and I am a 23-year-old passionate about technology, problem-solving, and innovation. With a strong background in computer science and accounting, I have spent years honing my skills in software development, data science, and web technologies. My journey into programming began over five years ago, and since then, I have explored various technologies, including PHP, Django, Meteor.js, and now the MERN (MongoDB, Express.js, React.js, Node.js) stack and Nextjs. In addition to web development, I have experience in data visualization, machine learning, and web scraping, using tools like Python, Excel, and Tableau to extract meaningful insights from data. Beyond technical expertise, I have a history of leadership and collaboration. I have led and co-led tech-focused clubs, where I fostered a culture of learning and innovation by organizing workshops, mentoring peers, and managing hands-on projects. My ability to communicate complex ideas effectively and work collaboratively has been a key factor in my success as both a developer and a leader.',
@@ -164,25 +161,25 @@ export const websiteInfo = {
     website:'danielsportfolio.com'
 }
 
-export const experience = [
-    {
-    title:'Forensic Risk Assurance Intern',
-    company:'EY',
-    summary:'Upcoming Summer 2025'
-    },
-    {
-        title:'Project Management Intern',
-        company:'Luther College',
-        summary:' Working as a project management Intern at Luther College Financial Office, I Automated deposit and invoice payment slips using Excel, increasing efficiency and accuracy in financial processes.I also conducted account reconciliation by integrating multiple software platforms, including Excel, Colleague, Content, and MyCampSite. Lastly, I ensured data accuracy and streamlined workflows through effective coordination and analysis of financial records and identified discrepancies in financial reports and implemented corrective measures to maintain compliance.'
-    },
-    {
-        title:'Facilities Office Assistant',
-        company:'Luther College',
-        summary:'I handled incoming calls and directed inquiries to appropriate personnel, ensuring efficient communication. I also performed data entry tasks with accuracy, maintaining organized and up-to-date records. Developed an automation tool using selenium to streamline employee list management by identifying and removing former employees and student access, enhancing operational efficiency. Additionally, I assigned maintenance and repair requests to relevant workers, optimizing task allocation and workflow.',
-    },
-    {
-        title:'Full Stack Developer',
-        company:'Nirdteq',
-        summary:'Designed and implemented responsive user interfaces using ReactJS, enhancing user experience and application functionality. Managed databases using MongoDB and SQL, optimizing data storage and retrieval processes.Integrated machine learning models into applications using Keras and Python, delivering intelligent and predictive features. Collaborated with cross-functional teams to deliver scalable and efficient web solutions.'
-    },
-]
+// export const experience = [
+//     {
+//     title:'Forensic Risk Assurance Intern',
+//     company:'EY',
+//     summary:'Upcoming Summer 2025'
+//     },
+//     {
+//         title:'Project Management Intern',
+//         company:'Luther College',
+//         summary:' Working as a project management Intern at Luther College Financial Office, I Automated deposit and invoice payment slips using Excel, increasing efficiency and accuracy in financial processes.I also conducted account reconciliation by integrating multiple software platforms, including Excel, Colleague, Content, and MyCampSite. Lastly, I ensured data accuracy and streamlined workflows through effective coordination and analysis of financial records and identified discrepancies in financial reports and implemented corrective measures to maintain compliance.'
+//     },
+//     {
+//         title:'Facilities Office Assistant',
+//         company:'Luther College',
+//         summary:'I handled incoming calls and directed inquiries to appropriate personnel, ensuring efficient communication. I also performed data entry tasks with accuracy, maintaining organized and up-to-date records. Developed an automation tool using selenium to streamline employee list management by identifying and removing former employees and student access, enhancing operational efficiency. Additionally, I assigned maintenance and repair requests to relevant workers, optimizing task allocation and workflow.',
+//     },
+//     {
+//         title:'Full Stack Developer',
+//         company:'Nirdteq',
+//         summary:'Designed and implemented responsive user interfaces using ReactJS, enhancing user experience and application functionality. Managed databases using MongoDB and SQL, optimizing data storage and retrieval processes.Integrated machine learning models into applications using Keras and Python, delivering intelligent and predictive features. Collaborated with cross-functional teams to deliver scalable and efficient web solutions.'
+//     },
+// ]
