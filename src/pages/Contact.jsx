@@ -1,6 +1,6 @@
 import React from 'react'
 import LeaveMsg from '../components/Leavemsg'
-import ContactsWidget from '../components/contactsWidget'
+import ContactsWidget from '../components/ContactsWidget'
 import { assets, Details } from '../assets/assets'
 
 const Contact = () => {
