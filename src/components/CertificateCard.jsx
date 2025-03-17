@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
 import { Link } from 'react-router-dom'
-import { PortfolioContext } from '../context/portfolioContext'
+import { PortfolioContext } from "../context/PortfolioContext"
 import { assets } from '../assets/assets'
 
 

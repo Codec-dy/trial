@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
 import ProjectCard from './ProjectCard';
-import { PortfolioContext } from '../context/portfolioContext';
+import { PortfolioContext } from "../context/PortfolioContext"
 import CertificateCard from './CertificateCard';
 
 const ViewGallery = ({projectChunks,type}) => {
