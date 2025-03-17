@@ -1,8 +1,5 @@
 import axios from "axios";
 import { toast } from "react-toastify";
-import { PortfolioContext } from "../../context/portfolioContext";
-import { useContext } from "react";
-
 
 const convertBase64 = (file) => {
   return new Promise((resolve, reject) => {
