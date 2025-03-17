@@ -110,7 +110,7 @@ export const assets = {
     //     link:'/mbalisportfolio/project/graphicDesign/5'
     // },
 
-]
+// ]
 
 // export const certificates = [
 //     {
