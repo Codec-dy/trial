@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
-import { PortfolioContext } from '../../context/portfolioContext';
+import { PortfolioContext } from '../../context/PortfolioContext';
 
 const AdminSideBar = () => {
   const {setIsAuthenticated} = useContext(PortfolioContext);

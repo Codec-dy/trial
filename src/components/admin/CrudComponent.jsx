@@ -1,5 +1,5 @@
 import React, { useContext, useState } from 'react'
-import { PortfolioContext } from '../../context/portfolioContext';
+import { PortfolioContext } from '../../context/PortfolioContext';
 import { handleFileChange } from '../Utils/crud';
 
 const CrudComponent = ({project,id}) => {

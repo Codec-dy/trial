@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { experience } from '../assets/assets'
 import SummaryCard from './SummaryCard'
-import { PortfolioContext } from '../context/portfolioContext'
+import { PortfolioContext } from '../context/PortfolioContext'
 import { getData } from './Utils/crud'
 
 const Experience = () => {

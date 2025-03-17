@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useRef, useState } from 'react'
 import { assets } from '../assets/assets';
 import { motion } from 'framer-motion';
 import { getData } from './Utils/crud';
-import { PortfolioContext } from '../context/portfolioContext';
+import { PortfolioContext } from '../context/PortfolioContext';
 
 
 const SkillsCardSlide = () => {

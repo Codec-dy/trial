@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import Admindashboard from './Dashboard'
 import Card from '../../components/Card'
-import { PortfolioContext } from '../../context/portfolioContext'
+import { PortfolioContext } from '../../context/PortfolioContext'
 import Button from '../../components/Button'
 import { getData } from '../../components/Utils/crud'
 import AdminEditDelete from '../../components/admin/AdminEditDelete'

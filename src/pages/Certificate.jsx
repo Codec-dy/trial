@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { certificates } from '../assets/assets';
-import { PortfolioContext } from '../context/portfolioContext';
+import { PortfolioContext } from '../context/PortfolioContext';
 
 const Certificate = () => {
     const {cert,api} = useContext(PortfolioContext)

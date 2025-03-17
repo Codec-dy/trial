@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react'
 import Button from '../Button'
-import { PortfolioContext } from '../../context/portfolioContext';
+import { PortfolioContext } from '../../context/PortfolioContext';
 import { handleDelete, handleEdit } from '../Utils/crud';
 
 

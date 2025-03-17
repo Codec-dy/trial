@@ -2,7 +2,7 @@ import React, { use, useContext, useState } from 'react'
 import Button from '../../components/Button'
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import { PortfolioContext } from '../../context/portfolioContext';
+import { PortfolioContext } from '../../context/PortfolioContext';
 import {toast} from 'react-toastify';
 const Admin = () => {
     const [loginDetails, setLoginDetails] = useState({});

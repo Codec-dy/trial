@@ -3,7 +3,7 @@ import { projects } from '../assets/assets';
 import ProPageTop from '../components/ProPageTop';
 import ViewGallery from '../components/ViewGallery';
 import { useParams } from 'react-router-dom';
-import { PortfolioContext } from '../context/portfolioContext';
+import { PortfolioContext } from '../context/PortfolioContext';
 
 const GraphicDesign = () => {
     const [project, setProject] = useState(null)
